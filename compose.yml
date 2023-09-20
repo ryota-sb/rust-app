@@ -1,0 +1,7 @@
+services:
+  dev:
+    image: rust:1.71.0-bookworm
+    volumes:
+      - ./projects:/projects
+    environment:
+      - USER=ryota
